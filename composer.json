@@ -1,0 +1,22 @@
+{
+    "name": "protein/options",
+    "description": "A dictionary to handle application-wide options",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefano Azzolini",
+            "email": "lastguest@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "Protein/filter": "^1.0.0",
+        "Protein/map": "^1.0.0"
+    },
+    "autoload": {
+        "PSR-4": {
+            "Protein\\": "src/"
+        }
+    }
+}
