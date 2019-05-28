@@ -5,12 +5,12 @@
  *
  * A dictionary to handle application-wide options.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  *
  */
 
-namespace Protein;
+namespace Proteins;
 
 class Options extends Map {
     use Filters;

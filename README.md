@@ -7,13 +7,13 @@
 ---
 
 ```
-composer require protein/options
+composer require proteins/options
 ```
 
 Require the global class via :
 
 ```php
-use Protein\Options;
+use Proteins\Options;
 ```
 
 ### Loading a config file
