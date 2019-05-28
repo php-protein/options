@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": "^7.2",
-        "protein/filter": "^1.0.0",
-        "protein/map": "^1.0.0"
+        "proteins/filter": "^1.0.0",
+        "proteins/map": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
