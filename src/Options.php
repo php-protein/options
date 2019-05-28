@@ -5,14 +5,14 @@
  *
  * A dictionary to handle application-wide options.
  *
- * @package Proteins
+ * @package Protein
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  *
  */
 
 namespace Proteins;
 
-class Options extends Map {
+class Options extends Dictionary {
     use Filters;
 
     protected static $fields = null;
