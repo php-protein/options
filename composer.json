@@ -1,5 +1,5 @@
 {
-    "name": "proteins/options",
+    "name": "proteins/option",
     "description": "A dictionary to handle application-wide options",
     "type": "library",
     "license": "MIT",
@@ -11,8 +11,9 @@
     ],
     "require": {
         "php": "^7.2",
+        "proteins/map": "^1.0.0",
         "proteins/filter": "^1.0.0",
-        "proteins/map": "^1.0.0"
+        "proteins/dictionary": "^1.0.0"
     },
     "autoload": {
         "psr-4": {

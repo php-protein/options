@@ -13,7 +13,16 @@ composer require proteins/options
 Require the global class via :
 
 ```php
+use Proteins\Option;
+```
+or the include the trait in your classes via :
+
+```php
 use Proteins\Options;
+
+class MyClass {
+    use Options;
+}
 ```
 
 ### Loading a config file
@@ -31,7 +40,7 @@ You can load a config tree from a file or an array via the utility loaders metho
 #### Loading options from file or array
 
 ```php
-Options::loadPHP('config.php');
+Option::loadPHP('config.php');
 ```
 
 **config.php**
@@ -51,15 +60,15 @@ return [
 #### Loading Options and Environment from a .env file
 
 ```php
-Options::loadENV($dir,$envname='.env',$prefix_path=null)
+Option::loadENV($dir,$envname='.env',$prefix_path=null)
 ```
 
 **/index.php**
 
 ```php
-Options::loadENV(__DIR__);
+Option::loadENV(__DIR__);
 
-print_r( Options::all() );
+print_r( Option::all() );
 ```
 
 **/.env**
